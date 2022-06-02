@@ -5,7 +5,7 @@
 * **E-mail:** 8736607@mail.ru
 * **Discord:** victory242#9202
 * **GitHub:** https://github.com/victory242
-* **vkontakte:** https://vk.com/id63837992
+* **Vkontakte:** https://vk.com/id63837992
 ___
 ## About Me:
 My goal is self-development, and, accordingly, a job where you can and should grow and develop.
@@ -17,3 +17,8 @@ ___
 * CSS
 * Git, GitHub
 * JavaScript Basics
+___
+## Experience
+* Educational project CV
+* Working with Git and GitHub
+* Using markdown markup
