@@ -1,5 +1,5 @@
 # Victoria Kish
-***
+
 ## My contacts:
 * **Phone number:** +375 298736607
 * **E-mail:** 8736607@mail.ru
@@ -18,7 +18,26 @@ ___
 * Git, GitHub
 * JavaScript Basics
 ___
+## Code example
+```
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(3, 5);
+alert ( result );
+```
+___
 ## Experience
 * Educational project CV
 * Working with Git and GitHub
 * Using markdown markup
+___
+
+## Education
+
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+___
+
+## English
+Entry level, in progress
