@@ -4,8 +4,8 @@
 * **Phone number:** +375 298736607
 * **E-mail:** 8736607@mail.ru
 * **Discord:** victory242#9202
-* **GitHub:** https://github.com/victory242
-* **Vkontakte:** https://vk.com/id63837992
+* [**GitHub**](https://github.com/victory242)
+* [**Vkontakte**](https://vk.com/id63837992)
 ___
 ## About Me:
 My goal is self-development, and, accordingly, a job where you can and should grow and develop.
