@@ -1,102 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cv</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/icons/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
-                    
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#profile" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="main">
-        <div class="containet">
-            <div class="section" id="profile">
-                <h1 class="section-title">Victoria Kish</h1>
-                <p>Junior Frontend Developer</p>
-                <img src="my photo.jpg" alt="my photo">
-            </div>
-            <div class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
-                <ul>
-                    <li>Phone number: +375 298736607</li>
-                    <li>E-mail: <a href="8736607@mail.ru">8736607@mail.ru</a></li>
-                    <li>Discord: <a>victory242#9202</a></li>
-                    <li><a href="https://github.com/victory242">https://github.com/victory242</a></li>
-                    <li><a href="https://vk.com/id63837992">https://vk.com/id63837992</a></li>
-                </ul>
-            </div>
-            <div class="section" id="summary">
-                <h2 class="section-title">Summary</h2>
-                <p>My goal is self-development, and, accordingly, a job where you can and should grow and develop. I am a complete newbie in programming. But this is offset by a quick learner and a huge interest in the profession.</p>
-            </div>
-            <div class="section" id="skills">
-                <h2 class="section-title">Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Git, GitHub</li>
-                    <li>JavaScript Basics</li>
-                </ul>
-            </div>
-            <div class="section" id="code">
-                <h2 class="section-title">Code</h2>
-                <pre>
-                    <code>
-                        function sum(a, b) {
-                            return a + b;
-                          }
-                          
-                          let result = sum(3, 5);
-                          alert ( result );
-                    </code>
-                </pre>
-            </div>
-            <div class="section" id="courses">
-                <h2 class="section-title">Courses</h2>
-                <ul>
-                    <li>HTML basics for beginners</li>
-                    <li>CSS basics for beginners</li>
-                    <li>Using markdown markup</li>
-                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-                </ul>
-            </div>
-            <div class="section" id="projects">
-                <h2 class="section-title">Projects</h2>
-
-            </div>
-
-            <div class="section" id="english">
-                <h2 class="section-title">English</h2>
-                <p>Entry level, in progress</p>
-            </div>
+      <div class="container">
+        <div class="top-container">
+         <img src="my photo.jpg" alt="my photo" class="photo" width="20%"/>
+         <div class="section" id="profile">
+          <h1 class="section-title">Victoria Kish</h1>
+          <p>Junior Frontend Developer</p>
+         </div>
         </div>
+        <div class="container-flex">
+        <div class="left-container">
+          <div class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="contacts">
+            <li class="contacts"><a href="tel: +375 298736607"><img src="./assets/icons/icons8-cell-phone-100.png" alt="+375 298736607" width="50"></a></li>
+            <li class="contacts"><a href="mailto: 8736607@mail.ru"></a><img src="./assets/icons/icons8-mail-100.png" alt="8736607@mail.ru" width="50"></li>
+            <li class="contacts"><a href="https://github.com/victory242"><img src="./assets/icons/icons8-github-100.png" alt="https://github.com/victory242" width="50"></a></li>
+            <li class="contacts"><a href="https://vk.com/id63837992"></a><img src="./assets/icons/icons8-vk-com-100.png" alt="https://vk.com/id63837992" width="50"></li>
+            <li><img src="./assets/icons/icons8-discord-100.png" alt="victory242#9202" width="20">Discord: victory242#9202</li>
+          </ul>
+          </div>
+          <div class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git, GitHub</li>
+            <li>JavaScript Basics</li>
+          </ul>
+          </div>
+        </div>
+        <div class="right-container">
+        <div class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+          My goal is self-development, and, accordingly, a job where you can
+          and should grow and develop. I am a complete newbie in programming.
+          But this is offset by a quick learner and a huge interest in the
+          profession.
+          </p>
+        </div>
+        <div class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre>
+              <code>
+                
+                function sum(a, b) {
+                  return a + b;
+                }
+                
+                let result = sum(3, 5);
+                alert ( result );
+              </code>
+          </pre>
+        </div>
+        <div class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul>
+            <li>HTML basics for beginners</li>
+            <li>CSS basics for beginners</li>
+            <li>Using markdown markup</li>
+            <li>
+              RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+            </li>
+          </ul>
+        </div> 
+        <div class="section" id="projects">*/
+          <h2 class="section-title">Projects</h2>
+        </div>
+
+        <div class="section" id="english">
+          <h2 class="section-title">English</h2>
+          <p>Entry level, in progress</p>
+        </div>
+        </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
-        <div class="container"></div>
+      <div class="container"></div>
     </footer>
-
-</body>
+  </body>
 </html>
