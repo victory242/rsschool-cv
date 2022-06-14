@@ -17,17 +17,41 @@ body {
 box-sizing: border-box;    
 }
 .header {
+
+     margin: 0 auto;
+     max-width: 1200px;
      
 }
 .main {
-     
     flex-wrap: wrap;
 }
 .footer {
-   
+     background-color: #f0f0f0;
+     max-width: 1200px;
+     margin: 0 auto;
 }
+.container-footer {
+     display: flex;
+     align-items: center;
+     justify-content:space-around;
+     min-width: 1200px;
+     box-shadow: inset -1px 7px 20px 7px rgba(0, 0, 0, 0.616);
+}
+.link-github {
+    text-decoration: none;
+    padding: 22px;
+    color: black;
+    font-weight: bold;
+}
+.link-github:hover {
+    text-decoration: underline;
+    box-shadow: 4px 4px 14px rgba(43, 40, 40, 0.397);
+}  
+.link-logo:hover {
+    box-shadow: 4px 4px 14px rgba(43, 40, 40, 0.397);
+}  
 .container {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .nav-list {
@@ -42,11 +66,14 @@ box-sizing: border-box;
     line-height: 50px;
     transition: .3s;
     text-decoration: none;
-    font-size: 16px;
     color: rgb(1, 7, 14);
-    background-color: rgba(223, 221, 221, 0.795);
+    background-color: rgba(81, 192, 250, 0.6);
     margin: 1px;
     border-radius: 30px;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    box-shadow: 4px 4px 14px rgba(43, 40, 40, 0.397);
 }
 
 @media (max-width: 768px) {
@@ -58,19 +85,17 @@ box-sizing: border-box;
     display: flex;
 }
 .left-container {
-    width:30%;
+    width:35%;
     background-color: rgba(8, 8, 8, 0.925);
     color: aliceblue;
     box-shadow: 8px -6px 14px 3px rgb(0 0 0 / 25%);
     border: 1px solid #5e5b5b;
 }
 .right-container {
-    width: 80%;
-    background-color: rgba(100, 50, 8, 0.1);
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.863);
     padding: 20px;
-
-
-
+    box-shadow: inset -1px 7px 20px 7px rgba(54, 50, 50, 0.25);
 }
 .top-container {
     display: flex;
@@ -82,7 +107,7 @@ box-sizing: border-box;
     border: 3px solid #5e5b5b;
 
 }
-    .photo {
+.photo {
     border-radius: 5px;
     margin: 0;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
@@ -94,22 +119,36 @@ box-sizing: border-box;
     text-align: center;
 }
 p {
-    font-size: 16px;
     padding: 0 20px;
 
 }
 .section {
-    font-size: 16px;
+    font-size: 20px;
 }
-h1{
+h1 {
     font-size: 60px;
     letter-spacing: 3px;
     padding: 20px 20px;
 }
 .contacts {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
-    padding: 10px;
+    padding: 5px;
+    margin: 0 auto;
+}
+.contacts:hover {
+    box-shadow: 4px 4px 14px rgba(255, 255, 255, 0.397);
+}
+.link-project {
+    color: rgb(1, 7, 14);
+       
+}
+.link-project:hover {
+    color: rgb(50, 70, 226);
+    text-decoration: underline;
+}
+.code {
+    background-color: rgba(138, 215, 230, 0.3);
 }
